@@ -1,0 +1,13 @@
+.root{
+--primary-color:blue;
+--secondary-color:pink;
+--padding: 70px;
+}
+
+
+.h1{
+
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
