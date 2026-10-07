@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>SPORTIVA</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1 class=SPORTIVA">SPORTIVA</h1>
+    <h1>SPORTIVA</h1>
 
     <nav>
         <a href="#home">Ballina</a>
@@ -21,87 +23,115 @@
     </nav>
 </header>
 
+
 <section id="home" class="hero">
     <h2>SPORTIVA</h2>
-    <p>Veshje sportive për çdo sfidë</p>
-    <a href="#products">Shiko produktet</a>
+    <p>Veshje sportive për çdo kampion.</p>
+    <button>Shiko produktet</button>
 </section>
+
 
 <section id="products">
     <h2>Produktet tona</h2>
 
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Produkti</th>
-            <th>Çmimi</th>
-            <th>Veprimi</th>
-        </tr>
+    <div class="cards">
 
-        <tr>
-            <td>
-                <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=500&q=80">
-            </td>
-            <td>Tracksuit</td>
-            <td>€79.99</td>
-            <td><button>Shto</button></td>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80">
-            </td>
-            <td>Atlete</td>
-            <td>€64.99</td>
-            <td><button>Shto</button></td>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80">
-            </td>
-            <td>Fanellë</td>
-            <td>€27.99</td>
-            <td><button>Shto</button></td>
-        </tr>
-    </table>
-</section>
-
-<section class="people">
-    <h2>Persona duke provuar produktet tona</h2>
-
-    <div class="people-box">
-
-        <div>
-            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80">
-            <h3>Veshje sportive</h3>
-            <p>Komode për stërvitje</p>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=600&q=80">
+            <h3>Tracksuit</h3>
+            <p>€79.99</p>
+            <button>Bli tani</button>
         </div>
 
-        <div>
-            <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=600&q=80">
-            <h3>Stil modern</h3>
-            <p>Provo koleksionin SPORTIVA</p>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80">
+            <h3>Atlete</h3>
+            <p>€64.99</p>
+            <button>Bli tani</button>
         </div>
 
-        <div>
-            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=600&q=80">
-            <h3>Për çdo aktivitet</h3>
-            <p>Sport dhe komfort</p>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80">
+            <h3>Fanellë</h3>
+            <p>€27.99</p>
+            <button>Bli tani</button>
         </div>
 
     </div>
 </section>
 
-<section id="about">
-    <h2>Rreth nesh</h2>
-    <p>SPORTIVA sjell veshje sportive moderne dhe komode.</p>
+
+<section class="testing">
+    <h2>Persona duke provuar produktet tona</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80">
+            <h3>Stërvitje</h3>
+            <p>Komoditet dhe energji</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80">
+            <h3>Fitness</h3>
+            <p>Stil për çdo ditë</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80">
+            <h3>Sport</h3>
+            <p>Gati për çdo sfidë</p>
+        </div>
+
+    </div>
 </section>
+
+
+<section id="about">
+    <h2>Rreth SPORTIVA</h2>
+
+    <p>
+        SPORTIVA është një faqe për veshje sportive,
+        me stil modern, rehati dhe cilësi.
+    </p>
+</section>
+
+
+<section>
+    <h2>Çmimet</h2>
+
+    <table>
+        <tr>
+            <th>Produkti</th> 
+            <th>Çmimi</th>
+        </tr>
+
+        <tr>
+            <td>Tracksuit</td>
+            <td>€79.99</td>
+        </tr>
+
+        <tr>
+            <td>Atlete</td>
+            <td>€64.99</td>
+        </tr>
+
+        <tr>
+            <td>Fanellë</td>
+            <td>€27.99</td>
+        </tr>
+    </table>
+</section>
+
 
 <section id="contact">
     <h2>Kontakt</h2>
+
     <p>info@sportiva.com</p>
+    <p>+383 44 123 456</p>
 </section>
+
 
 <footer>
     <p>© 2026 SPORTIVA</p>
