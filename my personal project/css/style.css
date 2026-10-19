@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #100000, #111, #350000);
+    text-align: center;
+    line-height: 1.6;
+}
+
+header, footer {
+    background: #050505;
+    padding: 25px;
+    border-bottom: 2px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span, .tag {
+    color: red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.hero {
+    padding: 120px 20px;
+    background: linear-gradient(#0009, #500000aa),
+    url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1500&q=80") center/cover;
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+
+section {
+    padding: 60px 6%;
+}
+
+.products, .value-grid {
+    display: grid;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+
+
+.banner {
+    background: linear-gradient(120deg, #a00000, #ed1515);
+}
+
+.page-hero {
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #450000, #111);
+}
+
+
+
+.about-layout img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.contact-item, .contact-form {
+    background: #222;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.contact-item h3 {
+    color: #ff4545;
+}
+
+.contact-form label, .contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 12px;
+    background: #111;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+footer {
+    border-top: 2px solid red;
+    border-bottom: none;
+}
+
